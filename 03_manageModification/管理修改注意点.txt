@@ -1,0 +1,1 @@
+commit只会提交上一次add修改的部分 add以后进行修改 再commit  是无效的 可以再add  commit 
