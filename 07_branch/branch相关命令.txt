@@ -1,0 +1,24 @@
+git checkout -b  xxx  创建xxx分支并切换过去
+相当于 git branch xxx + git checkout xxx 
+
+
+git branch  查看当前分支   不加参数为本地分支  -r 远程分支 -a全部
+
+查看分支历史  --graph带图的
+git log --graph --pretty=oneline --abbrev-commit 
+
+// 公司要求merge需要加上参数 --no-ff 表示禁用Fast Forward
+git merge xxx 将当前分支和xxx合并 文件中修改的部分 
+<<<<<<<<HEAD与=====之间为当前分支的内容
+>>>>>>>>与=====为xxx分支的内容
+
+git branch -d xxx  删除xxx分支
+
+git switch -c xxx 创建并切换分支
+相当于 git branch xxx+git switch xxx
+
+
+git diff 比较当前工作区和暂存区有何不同
+
+
+git clone 时  克隆下来的只有master分支 但是只有切换其他几个分支 就会自动从GitHub上将该分支给下下来 

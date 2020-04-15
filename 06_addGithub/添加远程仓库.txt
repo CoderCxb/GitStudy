@@ -1,1 +1,3 @@
-git remote add origin git@github.com:用户名/项目名.git
+git remote add origin git@github.com:用户名/项目名.git  将本地的git仓库和远程的github仓库关联起来
+
+git push -u origin master 第一次push加上-u 建立联系 后续不用
