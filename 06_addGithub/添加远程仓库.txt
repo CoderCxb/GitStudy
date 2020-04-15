@@ -1,0 +1,1 @@
+git remote add origin git@github.com:用户名/项目名.git
